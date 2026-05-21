@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "friend.py": {
+      "runtime": "python3.9"
+    }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/friend.py"
+    }
+  ]
+}
